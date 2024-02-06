@@ -123,9 +123,6 @@ def build_sex_model2():
     return model
 
 
-
-
-
 def draw_model(model, file_name):
     keras.utils.plot_model(
         model,
