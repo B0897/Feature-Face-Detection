@@ -4,11 +4,6 @@ import numpy as np
 from model.distances.face_parts import Direction
 
 
-def get_gravity_center(points):
-    print('todo')
-    return 0
-
-
 def get_center(points):
     return get_centroid(points)
 
