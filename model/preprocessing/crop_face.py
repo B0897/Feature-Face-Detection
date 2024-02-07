@@ -84,7 +84,7 @@ def get_and_save_face_proportions_extended(image_names, ):
 
 
 def get_features_for_images(image_names, feature_type):
-    image_names = image_names[4:5]
+    # image_names = image_names[4:5]
 
     no_landmarks = 0
     proportions_list = []
